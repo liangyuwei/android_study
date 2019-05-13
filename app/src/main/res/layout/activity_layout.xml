@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yuweiliang.android_study.LayoutActivity"
+    android:orientation="vertical"
+    android:gravity="right|center_vertical"><!--"bottom|center_horizontal"-->
+
+    <!--LinearLayout: Widgets are added linearly -->
+    <!--Button
+        android:id="@+id/bn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bn1"/>
+
+    <Button
+        android:id="@+id/bn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bn2"/>
+
+    <Button
+        android:id="@+id/bn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bn3"/>
+
+    <Button
+        android:id="@+id/bn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bn4"/>
+
+    <Button
+        android:id="@+id/bn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bn5"/-->
+
+    <!-- TableLayout: Numbers of rows and columns are automatically adjusted. -->
+    <TableLayout android:id="@+id/TableLayout01"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:shrinkColumns="1" android:stretchColumns="2">
+
+        <!-- First row, a single button-->
+        <Button
+            android:id="@+id/ok1"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="A single button occupying the whole line."/>
+
+        <!-- Second row, three buttons-->
+        <TableRow>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout android:id="@+id/TableLayout02"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:collapseColumns="1">
+
+    </TableLayout>
+
+    <TableLayout android:id="@+id/TableLayout03"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:stretchColumns="1,2">
+
+    </TableLayout>
+
+
+</LinearLayout>

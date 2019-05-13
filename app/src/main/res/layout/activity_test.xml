@@ -14,7 +14,7 @@
         android:columnCount="4"
         android:rowCount="10">
 
-        <TextView
+        <!--TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -23,11 +23,11 @@
             android:text="Grid Layout"
             android:textSize="30dp"
             android:layout_row="0" android:layout_column="0"
-            android:layout_rowSpan="1" android:layout_columnSpan="4" />
+            android:layout_rowSpan="1" android:layout_columnSpan="3" /-->
 
         <Button
             android:id="@+id/button1"
-            android:text="Button1"
+            android:text="(1,1)"
             android:layout_gravity="fill_horizontal"
             android:layout_row="1" android:layout_column="0"
             android:layout_rowSpan="1" android:layout_columnSpan="1" />
@@ -44,14 +44,14 @@
             android:text="Button3"
             android:layout_gravity="fill_horizontal"
             android:layout_row="1" android:layout_column="2"
-            android:layout_rowSpan="1" android:layout_columnSpan="1" />
+            android:layout_rowSpan="1" android:layout_columnSpan="2" />
 
-        <Button
+        <!--Button
             android:id="@+id/button4"
             android:text="Button4"
             android:layout_gravity="fill_horizontal"
             android:layout_row="1" android:layout_column="3"
-            android:layout_rowSpan="1" android:layout_columnSpan="1" />
+            android:layout_rowSpan="1" android:layout_columnSpan="1" /-->
 
 
         <Button
@@ -59,8 +59,14 @@
             android:text="Button5"
             android:layout_gravity="fill_horizontal"
             android:layout_row="2" android:layout_column="0"
-            android:layout_rowSpan="1" android:layout_columnSpan="3" />
+            android:layout_rowSpan="1" android:layout_columnSpan="1" />
 
+        <Button
+            android:id="@+id/button55"
+            android:text="Button55"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="2" android:layout_column="1"
+            android:layout_rowSpan="1" android:layout_columnSpan="3"/>
 
     </GridLayout>
 

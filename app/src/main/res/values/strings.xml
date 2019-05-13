@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">android_study</string>
     <string name="action_settings">Settings</string>
+    <string name="bn1">Button 1</string>
+    <string name="bn2">Button 2</string>
+    <string name="bn3">Button 3</string>
+    <string name="bn4">Button 4</string>
+    <string name="bn5">Button 5</string>
 </resources>
